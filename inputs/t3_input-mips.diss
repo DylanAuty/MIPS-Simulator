@@ -1,0 +1,11 @@
+
+t3_input-mips.o:     file format elf32-tradbigmips
+
+
+Disassembly of section .text:
+
+00000000 <t3_F>:
+   0:	000528c0 	sll	a1,a1,0x3
+   4:	30820fff 	andi	v0,a0,0xfff
+   8:	03e00008 	jr	ra
+   c:	00a21021 	addu	v0,a1,v0

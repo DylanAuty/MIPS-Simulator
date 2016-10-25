@@ -1,0 +1,47 @@
+ADD,  Add (with overflow), yes
+ADDI,  Add immediate (with overflow), yes
+ADDIU,  Add immediate unsigned (yes overflow), yes
+ADDU,  Add unsigned (yes overflow), yes
+AND,  Bitwise and, yes
+ANDI,  Bitwise and immediate, yes
+BEQ,  Branch on equal, yes
+BGEZ,  Branch on greater than or equal to zero, yes
+BGEZAL,  Branch on greater than or equal to zero and link, yes
+BGTZ,  Branch on greater than zero, yes
+BLEZ,  Branch on less than or equal to zero, yes
+BLTZ,  Branch on less than zero, yes
+BLTZAL,  Branch on less than zero and link, yes
+BNE,  Branch on yest equal, yes
+DIV,  Divide, yes
+DIVU,  Divide unsigned, yes
+J,  Jump, Yes
+JAL,  Jump and link, Yes
+JR,  Jump register, yes
+LB,  Load byte, yes
+LBU,  Load byte unsigned, yes
+LUI,  Load upper immediate, yes
+LW,  Load word, yes
+LWL,  Load word left, yes
+LWR,  Load word right, yes
+MFHI,  Move from HI, yes
+MFLO,  Move from LO, yes
+MULT,  Multiply, yes
+MULTU,  Multiply unsigned, yes
+OR,  Bitwise or, yes
+ORI,  Bitwise or immediate, yes
+SB,  Store byte, yes
+SH,  Store half-word, yes
+SLL,  Shift left logical, yes
+SLLV,  Shift left logical variable, yes
+SLT,  Set on less than (signed), yes
+SLTI,  Set on less than immediate (signed), yes
+SLTIU,  Set on less than immediate unsigned, yes
+SLTU,  Set on less than unsigned, yes
+SRA,  Shift right arithmetic, yes
+SRL,  Shift right logical, yes
+SRLV,  Shift right logical variable, yes
+SUB,  Subtract, yes
+SUBU,  Subtract unsigned, yes
+SW,  Store word, yes
+XOR,  Bitwise exclusive or, yes
+XORI,  Bitwise exclusive or immediate, yes

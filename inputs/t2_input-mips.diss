@@ -1,0 +1,13 @@
+
+t2_input-mips.o:     file format elf32-tradbigmips
+
+
+Disassembly of section .text:
+
+00000000 <f>:
+   0:	90830001 	lbu	v1,1(a0)
+   4:	90820000 	lbu	v0,0(a0)
+   8:	00000000 	nop
+   c:	00621021 	addu	v0,v1,v0
+  10:	03e00008 	jr	ra
+  14:	a0820002 	sb	v0,2(a0)
