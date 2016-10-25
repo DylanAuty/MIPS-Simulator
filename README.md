@@ -22,7 +22,7 @@ where `n` is the number of the test. Note that tests 1 - 5 were written and prov
 Of these tests, `t6_driver.c` is the most complete, and the results of this testing can be seen in `T6_LOG.xlsx` where bold outputs indicate a desired output. Only registers `$4`, `$5`, and `$6` are used. Output is always written to `$6`.
 
 #### Makefile
-The makefile included was authored by David Thomas, and modified by me. It compiles and then executes the test files in order.
+The makefile included was authored by David Thomas, and modified by me. It compiles the processor and the tests, and then executes the tests in the order specified within the text file.
 
 ## Processor files
 The main body of the processor was implemented in `mips_simulator.cpp`, which was written by myself. The API was detailed in `mips.h`, which was provided as part of the specification.
